@@ -1,93 +1,171 @@
 <!--
  Harrison Sheldon
  CPSC 332
- HW 1
- 9/11
+ HW 2
+ 9/24
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Page Title</title>
-<link rel="icon" href="images/profile.png" type="image/png"> 
+  <head>
+    <title>Resume</title>
+    <link rel="icon" href="images/profile.png" type="image/png"/>
 
-<link href="styles.css" rel="stylesheet">
-
-</head>
-<body class="layout">
-        <header class="header">
-
-
-         <a href="interests.html">Interests and Hobbies</a>
-         <a href="education.html">Education and Qualifications</a> 
-         <a href="career.html">Career Background information</a>
-
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="layout">
+    <header class="header">
       
-        </header>
-        <nav class="nav">
-      
-        <img id="profile" src="images/harrisonpic.jpeg" alt="Resume Picture of harrison">
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#interests">Interests and Hobbies</a>
 
-        <p>As a senior studying computer science at Gonzaga University, I am passionate about exploring the intersections of technology and innovation. In addition to my studies, I have gained valuable work experience in the teaching and services industry. 
-         I am excited to continue expanding my skills and knowledge in both my academic and professional pursuits, and am eager to explore opportunities where I can apply my expertise in computer science.
-         </p>
+    </header>
+    <nav class="nav">
+      <img
+        id="profile"
+        src="images/harrisonpic.jpeg"
+        alt="Resume Picture of harrison"
+      />
 
+      <h2>Harrison Sheldon</h2>
+      <h3>CS Student</h3>
 
+      <p>
+        As a senior studying computer science at Gonzaga University, I am
+        passionate about exploring the intersections of technology and
+        innovation. In addition to my studies, I have gained valuable work
+        experience in the teaching and services industry. I am excited to
+        continue expanding my skills and knowledge in both my academic and
+        professional pursuits, and am eager to explore opportunities where I can
+        apply my expertise in computer science.
+      </p>
+    </nav>
 
+    <article class="content">
+      <section id="experience">
+        <table class="career-table">
+          <caption>
+            Experience
+          </caption>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Company</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pro Shop Attendant</td>
+              <td>Downriver Golf Shop</td>
+              <td>
+                Working in customer service to manage golf course operations
+              </td>
+            </tr>
+            <tr>
+              <td>Technical Instructor</td>
+              <td>ID Tech</td>
+              <td>
+                Led students in engaging programming and STEM lessons in Java
+                and Minecraft modding
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
+      <section id="education">
+        <table class="education-table">
+          <caption>
+            Education
+          </caption>
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Location</th>
+              <th>GPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Gonzaga University</td>
+              <td>Spokane, Washington</td>
+              <td>3.87</td>
+            </tr>
 
-        </nav>
-        <article class="content">Article</article>
+            <tr>
+              <td>Ingraham Highschool</td>
+              <td>Seattle, Washington</td>
+              <td>3.96</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-</body>
+      <!-- Qualifications Section -->
+      <section id="qualifications">
+        <table class="qualifications-table">
+          <caption>
+            Qualifications
+          </caption>
+          <thead>
+            <tr>
+              <th>Class Name</th>
+              <th>Course Number</th>
+              <th>Skills Displayed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data Science Algorithms</td>
+              <td>CPSC 322</td>
+              <td>Python , ML Algorithms, Flask, Docker</td>
+            </tr>
 
+            <tr>
+              <td>Database Management Systems</td>
+              <td>CPSC 321</td>
+              <td>SQL, Java, PostgreSQL</td>
+            </tr>
 
+            <tr>
+              <td>Data Science Project Lab</td>
+              <td>CPSC 325</td>
+              <td>React, Python, Firebase, FastAPI</td>
+            </tr>
 
+            <tr>
+              <td>Linux and DevOPS</td>
+              <td>CPSC 334</td>
+              <td>Linux, Docker, Github actions, DevOPS workflows</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
+      <!-- Interests Section -->
+      <section id="interests">
+        <h2>Interests and Hobbies</h2>
+        <ol>
+          <li>
+            Snowboarding<br>
+            <img src="images/snowboarder.jpeg" alt="Snowboarder on a mountain">
+          </li>
 
+          <li>
+            Guitar<br>
+            <a href="https://www.ibanez.com/na/products/detail/as93bc_5b_01.html" target="_blank">
+              <img src="images/guitar.png" alt="Ibanez guitar picture">
+            </a>
+          </li>
 
+          <li>
+            Golf<br>
+            <img src="images/viktor.jpg" alt="Golfer swinging club">
+          </li>
+        </ol>
+      </section>
 
-
-
-<!--
-   
-
-<h1>Harrison Sheldon</h1>
-
-<h2>Introduction</h2>
-
-
-
-<img src="images/harrisonpic.jpeg" alt="Resume Picture of harrison" width="200" height="200">
-
-<p>
-<a href="education.html#Langs" >Languages </a>
-</p>
-<ul> 
-    
-    <li> Java</li>
-    <li>Python</li>
-    <li>C++</li>
-    <li>SQL </li>
-
-</ul>
-
-<h4>Tools</h4>
-
-<ul>
-    <li>Git </li>
-    <li>Linux </li>
-    <li> AWS Services</li>
-    <li> Firebase </li>
-</ul>
-
-<p>
-   <a href="career.html">Career Background information</a>
-</p>
-<p>
-   <a href="education.html">Education and Qualifications</a> 
-</p>
-<p>
-   <a href="interests.html">Interests and Hobbies</a> 
-</p>
--->   
+    </article>
+  </body>
 </html>
