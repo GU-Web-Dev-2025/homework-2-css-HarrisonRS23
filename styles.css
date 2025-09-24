@@ -1,0 +1,40 @@
+        .layout {
+                background: black;
+                font-size: 2em;
+                text-align: center;
+                display: grid;
+                grid-template-columns: 35% auto 35%;
+                grid-template-rows: 10% 70% 20%;
+                grid-template-areas:
+                    "head head head"
+                    "nav content content"
+                    "nav content content";
+                
+
+                height: 100vh;
+                
+                }
+
+            /* Header Styling */
+            .header {
+                background: rgb(125, 133, 150);
+                grid-area: head;
+                font-size: 15px;
+            }
+
+            /* Navigation Styling */
+            .nav {
+                background: khaki;
+                grid-area: nav;
+            }
+
+            /* Content Styling */
+            .content {
+                background: darkseagreen;
+                grid-area: content;
+            }
+        
+            #profile{
+                width: 100px;
+                height: 100px;
+            }
