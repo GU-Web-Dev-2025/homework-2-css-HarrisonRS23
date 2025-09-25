@@ -25,6 +25,9 @@ body {
     "nav content";
   gap: 20px;
 }
+#interests{
+  text-align: center;
+}
 
 .header {
   grid-area: header;
