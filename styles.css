@@ -181,3 +181,11 @@ h1, h2, h3 {
 body, p, li {
   font-family: 'Arial', 'sans-serif';
 }
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 40px;
+  height: auto;
+}
