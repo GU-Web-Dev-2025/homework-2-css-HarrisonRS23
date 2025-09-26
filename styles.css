@@ -7,7 +7,7 @@
 
 body {
   background-color: #ead7c3;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif; /* Sans-serif font for body */
   margin: 0;
   padding: 0;
 }
@@ -27,6 +27,17 @@ body {
 }
 #interests{
   text-align: center;
+}
+h3{
+  text-align: center;
+  color: rgb(154, 98, 14);
+}
+h4{
+   padding-left: 15px;
+   color: rgb(154, 98, 14);
+}
+.nav h3{
+  color: black;
 }
 
 .header {
@@ -67,6 +78,12 @@ body {
   text-align: left;
   border: 1px solid #ddd;
 }
+ul{
+  list-style-type: square;
+  color: rgb(154, 98, 14);
+  padding-left: 50px;
+}
+
 
 .career-table caption,
 .education-table caption,
@@ -131,6 +148,36 @@ a {
   color: #333;
   padding-left: 30px;
 }
+
+
+/* EXTRA CREDIT special effect */
 a:hover {
+  color: #007BFF; /* Change color on hover */
   text-decoration: underline;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+}
+
+/* EXTRA CREDIT custom font */
+/* Use different fonts for headers and body */
+
+
+/* Added custom font pairing for extra credit justification:
+
+Source used: 
+
+https://www.interaction-design.org/literature/article/how-to-pair-fonts-a-practical-guide?srsltid=AfmBOopLZ0LWix7KKr54XVPXeG6BSi9JHWscSWtpG3DZyBOvXYaFd_4S
+   
+- The font pairing follows the principles outlined in the website sited above:
+    Context and Content: The chosen fonts align with the professional and clean aesthetic of the CV.
+    Contrast: A serif font (Georgia) is used for headers to convey elegance and professionalism, while a sans-serif font (Arial) is used for body text to ensure readability.
+    Hierarchy: The distinct styles of the fonts help establish a clear visual hierarchy between headers and body text.
+*/
+
+/* Applying custom fonts */
+h1, h2, h3 {
+  font-family: 'Georgia', 'serif';
+}
+
+body, p, li {
+  font-family: 'Arial', 'sans-serif';
 }
